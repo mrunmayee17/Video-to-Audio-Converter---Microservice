@@ -108,11 +108,11 @@ Run following commands on Terminal:
     3. go to directory containing video
     4. curl -X POST -F 'file=@./videofilename' -H 'Authorization: Bearer (key)' http://mp3converter.com/upload
     - Ex. curl -X POST -F 'file=@./test.mp4' -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1ydW5tYXllZXJhbmU5OEBnbWFpbC5jb20iLCJleHAiOjE2NzkxMDY2MzMsImlhdCI6MTY3OTAyMDIzMywiYWRtaW4iOnRydWV9.mp-md8gpwf5lWptsXMSRQQjfmMX7lsFkZTAKwbBxJbo' http://mp3converter.com/upload
-	# for viewing database:
-	Terminal Commands:
-    - mongosh
-    - show databases;
-    - usemp3s;
+	- For viewing database:
+	- Terminal Commands:
+	    - mongosh
+	    - show databases;
+	    - usemp3s;
 5. Go to rabbitmq-manager.com, use above credentials(guest)
 	- go to Queues
 	- Click on Get Message:

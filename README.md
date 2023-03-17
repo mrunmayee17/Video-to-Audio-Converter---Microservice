@@ -118,7 +118,7 @@ Run following commands on Terminal:
 	- Click on Get Message:
 	- in payload mp3_fid is given as in screenshot:
 
-<img src="ss.jpg" alt="Alt text" title="Optional title">
+<img width="1047" alt="ss" src="https://github.com/mrunmayee17/Video-to-Audio-Converter---Microservice/blob/e90469de3e1d79c971df7c009931f27a48c36bad/ss.png">
 
 6. Use mp3_id to download audio file using curl request
 	- Mongofiles --db=mp3s get_id --local=audiofilename.mp3 '{ $oid: "(mp3id)}'

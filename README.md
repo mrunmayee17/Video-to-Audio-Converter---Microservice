@@ -113,14 +113,16 @@ Run following commands on Terminal:
     - mongosh
     - show databases;
     - usemp3s;
-	5. Go to rabbitmq-manager.com, use above credentials(guest)
-		- go to Queues
-		- Click on Get Message:
-		- in payload mp3_fid is given as in screenshot:
-    ![RabbitMq Screenshot](ss.jpg)
-	6. Use mp3_id to download audio file using curl request
-		- Mongofiles --db=mp3s get_id --local=audiofilename.mp3 '{ $oid: "(mp3id)}'
-		- Ex. mongofiles --db=mp3s get_id --local=test.mp3 '{"$oid": "6412e996ee8dfde2d885d62e"}' 
+5. Go to rabbitmq-manager.com, use above credentials(guest)
+	- go to Queues
+	- Click on Get Message:
+	- in payload mp3_fid is given as in screenshot:
+
+<img src="ss.jpg" alt="Alt text" title="Optional title">
+
+6. Use mp3_id to download audio file using curl request
+	- Mongofiles --db=mp3s get_id --local=audiofilename.mp3 '{ $oid: "(mp3id)}'
+	- Ex. mongofiles --db=mp3s get_id --local=test.mp3 '{"$oid": "6412e996ee8dfde2d885d62e"}' 
 
 
 Ref: https://www.youtube.com/watch?v=hmkF77F9TLw

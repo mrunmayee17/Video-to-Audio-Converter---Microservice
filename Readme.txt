@@ -114,7 +114,7 @@ Run following commands on Terminal:
 		- go to Queues
 		- Click on Get Message:
 		- in payload mp3_fid is given as in screenshot:
-		![My Image](./Screenshot 2023-03-16 at 10.52.16 PM.png)
+		![My Image](./ss.png)
 	6. Use mp3_id to download audio file using curl request
 		- Mongofiles --db=mp3s get_id --local=audiofilename.mp3 '{ $oid: "(mp3id)}'
 		- Ex. mongofiles --db=mp3s get_id --local=test.mp3 '{"$oid": "6412e996ee8dfde2d885d62e"}' 

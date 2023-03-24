@@ -102,19 +102,19 @@ Instructions:
 - Video to Audio Conversion by sending curl request:
 
 Run following commands on Terminal:
-     - curl -X POST http://mp3converter.com/login -u `emailid in mysql db`: `password in mysql db`
-     - ex. curl -X POST http://mp3converter.com/login -u mrunmayeerane98@gmail.com:Admin123
-     - you will receive a key from above command 
-     - go to directory containing video
-     - curl -X POST -F 'file=@./videofilename' -H 'Authorization: Bearer (key)' http://mp3converter.com/upload
-     - Ex. curl -X POST -F 'file=@./test.mp4' -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1ydW5tYXllZXJhbmU5OEBnbWFpbC5jb20iLCJleHAiOjE2NzkxMDY2MzMsImlhdCI6MTY3OTAyMDIzMywiYWRtaW4iOnRydWV
-     
+	     - curl -X POST http://mp3converter.com/login -u `emailid in mysql db`: `password in mysql db`
+	     - ex. curl -X POST http://mp3converter.com/login -u mrunmayeerane98@gmail.com:Admin123
+	     - you will receive a key from above command 
+	     - go to directory containing video
+	     - curl -X POST -F 'file=@./videofilename' -H 'Authorization: Bearer (key)' http://mp3converter.com/upload
+	     - Ex. curl -X POST -F 'file=@./test.mp4' -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1ydW5tYXllZXJhbmU5OEBnbWFpbC5jb20iLCJleHAiOjE2NzkxMDY2MzMsImlhdCI6MTY3OTAyMDIzMywiYWRtaW4iOnRydWV
+
 9.mp-md8gpwf5lWptsXMSRQQjfmMX7lsFkZTAKwbBxJbo' http://mp3converter.com/upload
-	- For viewing database:
-	- Terminal Commands:
-	    - mongosh
-	    - show databases;
-	    - usemp3s;
+		- For viewing database:
+		- Terminal Commands:
+		    - mongosh
+		    - show databases;
+		    - usemp3s;
 
 5. Go to rabbitmq-manager.com, use above credentials(guest)
 	- go to Queues
